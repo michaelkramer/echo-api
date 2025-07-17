@@ -6,12 +6,10 @@
   "author": "Michael Kramer",
   "type": "module",
   "scripts": {
-    "start": "ts-node src/index.ts",
+    "start": "node api/index.ts",
     "swagger-autogen": "ts-node src/swagger.ts",
     "lint": "eslint src",
-    "lintfix": "eslint src --fix",
-    "build": "tsc --build",
-    "run": "node build/index.js"
+    "lintfix": "eslint src --fix"
   },
   "dependencies": {
     "@google-analytics/data": "^5.1.0",
