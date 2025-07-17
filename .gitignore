@@ -27,3 +27,4 @@ example
 example/*
 build
 reassist-api-key.json
+.vercel

@@ -9,8 +9,8 @@
     "swagger-autogen": "ts-node src/swagger.ts",
     "lint": "eslint src",
     "lintfix": "eslint src --fix",
-    "build": "npm run swagger-autogen && tsc --project tsconfig.json",
-    "run": "node build/src/index.js"
+    "build": "npm run swagger-autogen && tsc --build",
+    "run": "node build/index.js"
   },
   "dependencies": {
     "@google-analytics/data": "^5.1.0",
