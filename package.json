@@ -10,7 +10,7 @@
     "swagger-autogen": "ts-node src/swagger.ts",
     "lint": "eslint src",
     "lintfix": "eslint src --fix",
-    "build": "npm run swagger-autogen && tsc --build",
+    "build": "tsc --build",
     "run": "node build/index.js"
   },
   "dependencies": {
