@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "ECHO - Enhancing Care and Health Outcomes",
   "license": "ISC",
-  "author": "",
+  "author": "Michael Kramer",
   "scripts": {
     "start": "ts-node src/index.ts",
     "swagger-autogen": "ts-node src/swagger.ts",
