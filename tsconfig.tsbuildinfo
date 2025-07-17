@@ -1,0 +1,1 @@
+{"root":["./src/env.ts","./src/index.ts","./src/swagger.ts","./src/config/analytics-data-client.ts","./src/controllers/analytic-data.ts","./src/controllers/ping.ts","./src/services/get-session.ts","./src/services/get-user-engagement.ts","./src/utils/env-utils.ts"],"version":"5.8.3"}
